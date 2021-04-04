@@ -64,7 +64,7 @@ $('#form-login').on('submit',function(e){
             //将登录成功得到的token字符串，保存在locaotorage中
             localStorage.setItem('token',res.token)
             //跳转到后台首页
-            location.href = '/index.html'
+            location.href = './index.html'
         }
     })
 })
